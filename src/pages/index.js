@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   const sendMessage = (message) => {
-    const url = /api/chat";
+    const url = "/api/chat";
     const productRelatedKeywords = ["neb", "NEB", "geomx"]; // 예시 키워드
     const isProductRelated = productRelatedKeywords.some((keyword) =>
       message.includes(keyword)
